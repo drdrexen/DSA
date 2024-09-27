@@ -19,16 +19,30 @@ int main() {
         scanf("%d", &a[i]);
     }
   //inserting at specific position
-  int num, pos;
-  printf("Enter the position you want to insert");
-  scanf("%d", &pos);
+  // int num, pos;
+  // printf("Enter the position you want to insert");
+  // scanf("%d", &pos);
+  // printf("Enter data:");
+  // scanf("%d", &num);
+  // for (int j =size -1; j>= pos-1; j--){
+  //   a[j+1]= a[j];   
+  // }
+  //      a[pos-1]=num;
+
+  //inserting at beginning
+ //  int num,k;
+ // printf("Enter data:");
+ //  scanf("%d", &num); 
+ //  for(k=size-1; k>=0; k--){
+ //    a[k+1]=a[k];
+ //  }
+ //  a[0]= num;
+
+  //inserting at the last
+  int num,k;
   printf("Enter data:");
   scanf("%d", &num);
-  for (int j =size -1; j>= pos-1; j--){
-    a[j+1]= a[j];   
-  }
-       a[pos-1]=num;
-
+  a[size]= num;
 
     // Printing/traversing each element of the array
     printf("The elements of the array are:\n");
